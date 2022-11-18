@@ -1,0 +1,19 @@
+class Constants:
+    VOLLEYBALL_ASSOCIATION_URL = "https://www.iva.org.il/"
+
+    TIME_CELL_WIDTH = 4
+    TEAM_CELL_WIDTH = 8
+    SCORE_CELL_WIDTH = 4
+    PLAYER_CELL_WIDTH = 2
+
+    PLAYERS_ROWS_AMOUNT = 5
+    PLAYERS_CELLS_AMOUNT = 6
+
+    SET_HEADERS_ORDER = [
+        TIME_CELL_WIDTH,
+        TEAM_CELL_WIDTH,
+        SCORE_CELL_WIDTH,
+        TEAM_CELL_WIDTH,
+        TIME_CELL_WIDTH,
+        SCORE_CELL_WIDTH
+    ]
