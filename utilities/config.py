@@ -1,5 +1,12 @@
+import os
+
+
 class Constants:
-    VOLLEYBALL_ASSOCIATION_URL = "https://www.iva.org.il/"
+    VOLLEYBALL_ASSOCIATION_URL = os.environ.get('VOLLEYBALL_ASSOCIATION_URL')
+
+    MONGO_HOST = os.environ.get('MONGO_HOST')
+    MONGO_USER = os.environ.get('MONGO_USER')
+    MONGO_PASSWORD = os.environ.get('MONGO_PASSWORD')
 
     TIME_CELL_WIDTH = 4
     TEAM_CELL_WIDTH = 8

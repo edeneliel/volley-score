@@ -1,8 +1,12 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 import strawberry
 from flask import Flask
 from api.base_query import Query
 from api.base_mutation import Mutation
 from strawberry.flask.views import GraphQLView
+
 
 schema = strawberry.Schema(query=Query, mutation=Mutation)
 
